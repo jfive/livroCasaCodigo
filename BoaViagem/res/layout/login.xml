@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:padding="20dp">
+
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="106dp"
+                android:id="@+id/imageView" android:layout_gravity="center"
+                android:src="@drawable/peixe"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usuario"
+                android:id="@+id/textView"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/usuario"
+                android:inputType="text">
+
+            <requestFocus/>
+        </EditText>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/senha"
+                android:id="@+id/textView1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New EditText"
+                android:id="@+id/senha" android:layout_gravity="center" android:inputType="textPassword"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entrar"
+                android:id="@+id/button" android:layout_gravity="bottom"
+                android:onClick="entrarOnCick"/>
+
+</LinearLayout>
