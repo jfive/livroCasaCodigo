@@ -1,6 +1,7 @@
 package br.com.casadocodigo.boaviagem;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -31,10 +32,10 @@ public class BoaViagemActivity extends Activity {
 
     public void entrarOnCick(View v) {
         String usuarioInformado = usuario.getText().toString();
-        String senhaInformado = usuario.getText().toString();
+        String senhaInformado = senha.getText().toString();
 
         if("leitor".equals(usuarioInformado) && "123".equals(senhaInformado)){
-
+            startActivity(new Intent(this, DashboardActivity.class));
         } else {
             String messageErro = getString(R.string.erro_autenticacao);
             Toast toast = Toast.makeText(this,messageErro,Toast.LENGTH_SHORT);
