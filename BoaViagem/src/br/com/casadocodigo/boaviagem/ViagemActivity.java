@@ -15,6 +15,6 @@ public class ViagemActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.nova_viagem);
+        setContentView(R.layout.viagem);
     }
 }

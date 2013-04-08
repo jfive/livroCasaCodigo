@@ -5,4 +5,8 @@
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
     <string name="erro_autenticacao">Usuário ou senha Inválidos</string>
+    <string name="novo_gasto">Novo Gasto</string>
+    <string name="valor">Valor</string>
+    <string name="data">Data</string>
+    <string name="selecione">Selecione</string>
 </resources>
