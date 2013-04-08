@@ -35,5 +35,25 @@
                 android:drawableTop="@android:drawable/ic_lock_silent_mode_off"
                 android:layout_alignTop="@+id/txtNovoGasto"
                 android:onClick="selecionarOpcao"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minhas Viagens"
+                android:id="@+id/minhasViagens"
+                android:layout_alignLeft="@+id/txtNovoGasto" android:layout_alignParentTop="true"
+                android:layout_marginTop="232dp" android:layout_alignWithParentIfMissing="false"
+                android:drawableTop="@android:drawable/ic_menu_agenda"
+                android:layout_alignParentBottom="true"
+                android:clickable="true"
+                android:onClick="selecionarOpcao"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Configurações"
+                android:id="@+id/config" android:layout_alignRight="@+id/novaViagem"
+                android:layout_alignTop="@+id/minhasViagens" android:layout_alignBottom="@+id/minhasViagens"
+                android:drawableTop="@android:drawable/ic_menu_manage"
+                android:clickable="true"
+                android:onClick="selecionarOpcao"/>
     </RelativeLayout>
 </LinearLayout>
