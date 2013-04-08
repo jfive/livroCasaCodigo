@@ -20,7 +20,6 @@ public class DashboardActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dashboard);
-        //setContentView(R.layout.nova_viagem);
     }
 
     public void selecionarOpcao(View view) {
